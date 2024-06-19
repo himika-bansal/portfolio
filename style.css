@@ -189,10 +189,14 @@ header {
     justify-content: center;
     gap: 50px;
     padding-bottom: 100px;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
 .header-left {
     max-width: 40vw;
+    
 }
 
 .header-left h1 {
@@ -228,8 +232,7 @@ header {
 /* features section */
 
 .features-section {
-    padding: 80px var(--padding-inline-section) 0;
-    background-image: url(./assets/asset\ 32.svg);
+    /* padding: 80px var(--padding-inline-section) 0; */
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -255,6 +258,7 @@ header {
     gap: 20px;
     max-width: 30%;
     text-align: center;
+    padding: 5%;
 }
 
 .features-card img {
@@ -333,7 +337,7 @@ header {
     position: relative;
     height: 190px;
     background: black;
-    background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0)), url(./assets/asset\ 35.jpeg);
+    background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0));
     background-size: cover;
     transition: 0.2s ease-out;
 }
@@ -503,19 +507,21 @@ footer {
 }
 
 .footer-container {
+    padding: 10px;
+    margin-top: 50px;
     align-items: center;
     /* justify-content: space-between; */
     justify-content: space-around;
-    background-color: #183b54;
+    background-color: #ffffff;
 }
 
 .footer-container img{
-    width: 50px;
-    background-color: #183b54;
+    width: 70px;
+    background-color: #ffffff;
 }
 
 .footer-container a{
-    background-color: #183b54;
+    background-color: #ffffff;
 }
 
 .connect-logo {
