@@ -136,7 +136,7 @@
     <!-- skills feature section -->
 
 
-    <section class="features-section">
+    <section class="features-section" id="skillsid">
         <div class="container">
             <div class="features-header">
                 <br><br>
@@ -192,33 +192,7 @@
 
 
     <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
-
-    <script>
-        const toggleButton = document.getElementById('nav-toggle');
-        const navLinks = document.getElementById('nav-links');
-
-        toggleButton.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        })
-
-
-        function changeImage() {
-            var image = document.getElementById('myImage');
-            if (image.src.match("bulbon")) {
-                image.src = "./assets/bulboff.png";
-                document.getElementById("demo").innerHTML = " ";
-
-            } else {
-                image.src = "./assets/bulbon.png";
-                document.getElementById("demo").innerHTML = "&#8594; UX Designing <br> &#8594; Web Development <br> &#8594; Data Structures and Algoritms <br> &#8594; Object Oriented Programming <br> &#8594; Content Writing and Documentation ";
-            }
-        
-        }
-
-        // function myFunction() {
-        //     document.getElementById("demo").innerHTML = "Paragraph changed.";
-        // }
-    </script>
+    <script src="script.js"></script>
 
     
 
