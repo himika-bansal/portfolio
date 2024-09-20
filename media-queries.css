@@ -59,10 +59,10 @@
         padding-inline: 12px;
         grid-auto-rows: 220px;
     }
-    .box {
+/*     .box {
         grid-row: span 1;
         grid-column: span 3;
-    }
+    } */
 }
 
 @media screen and (max-width: 767px) {
@@ -113,6 +113,16 @@
         width: 90%;
   margin-left: auto;
   margin-right: auto;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info {
+        margin-left: 0;
+        margin-top: 30px;
     }
 }
 
