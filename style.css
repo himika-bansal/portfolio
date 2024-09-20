@@ -564,4 +564,142 @@ footer {
 }
 
 
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+    background-color: #000;  /* Set backdrop to black */
+    
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 75%;
+    padding-top: 0px;
+    /* border: 1px solid white; */
+
+}
+
+.contact-form {
+    flex: 1 1 500px;
+    padding: 20px;
+    background-color: #000;  /* Dark gray for form background */
+    /* box-shadow: 0 2px 8px rgba(246, 244, 244, 0.3); */
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#input-name,
+#input-email,
+#input-subject,
+.form-group textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 10px;
+    background-color: #666; 
+    color: #000000;  /* White text for readability */
+    /* border: 1px solid #ffffff;  */
+    border-radius: 20px;
+    /* box-shadow: #000; */
+    font-size: 16px;
+}
+
+#input-name:focus,
+#input-email:focus,
+#input-subject:focus,
+.form-group textarea:focus {
+    border-color: #2294ed;
+    outline: none;
+    background-color: #333;  
+    color: white;
+    box-shadow: 0 2px 8px #2294ed;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+
+.contact-info {
+    flex: 1 1 300px;
+    padding: 20px;
+    margin-left: 20px;
+    color: #fff; /* White text for the contact info */
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(5, 173, 5);  /* Green text for the heading */
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #ccc;  /* Lighter gray for paragraph text */
+}
+
+
+.contact-form-right{
+    width: 30%;
+    flex-direction: column;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    align-items: center;
+    width: 100%; /* Full width of the container */
+    padding: 15px;
+    /* margin-bottom: 20px; */
+    background-color: transparent; /* No background color, blends with the form */
+    border: 1px solid #666; /* White border color */
+    border-radius: 8px; /* Rounded edges */
+    color: var(--secondary-text-color); /* Light gray text color */
+    font-size: 16px;
+    box-shadow: none; /* Remove inner shadow */
+    transition: border-color 0.3s;
+}
+
+
+input[type="submit"] {
+    width: 100%; 
+    padding: 15px;
+    /* background-color: var(--accent-color); 
+    border: 1px solid white;  */
+    border-radius: 10px; 
+    color: #fff; 
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.submit-btn-contact:hover{
+    background-color: none;
+    color: white;
+    box-shadow: 0 2px 8px #2294ed;
+}
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-heading{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
 
